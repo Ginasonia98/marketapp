@@ -1,18 +1,20 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './pages/**/*.{js,ts,jsx,tsx}',
-    './components/**/*.{js,ts,jsx,tsx}',
-    './app/**/*.{js,ts,jsx,tsx}',
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
+    screen: {
+      xs: "320px", // mobile
+      sm: "576px", // mobile
+      md: "768px", // tablet
+      lg: "992px", // tablet
+      xl: "1280px", // laptop
+      "2xl": "1448px", // laptop
+      "3xl": "1600px", // laptop
     },
+    extend: {},
   },
   plugins: [],
 }
