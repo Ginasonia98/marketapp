@@ -12,7 +12,7 @@ const card = () => {
             data-aos-duration="800"
             data-aos-easing="ease-in-out"
             data-aos-once="false"
-            className="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white"
+            className="mb-4 text-3xl font-extrabold tracking-tight text-purple-900"
           >
             Designed for business teams like yours
           </h2>
@@ -23,9 +23,9 @@ const card = () => {
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
             data-aos-once="false"
-            className="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400"
+            className="mb-5 font-light text-purple-500 sm:text-xl"
           >
-            Here at Landwind we focus on markets where technology, innovation,
+            Here at Market we focus on markets where technology, innovation,
             and capital can unlock long-term value and drive economic growth.
           </p>
         </div>
@@ -33,20 +33,20 @@ const card = () => {
           data-aos="fade-up"
           className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0"
         >
-          <div className="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+          <div className="flex flex-col max-w-lg p-6 mx-auto text-center text-purple-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
             <h3 className="mb-4 text-2xl font-semibold">Starter</h3>
-            <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+            <p className="font-light text-purple-500 sm:text-lg">
               Best option for personal use & for your next project.
             </p>
             <div className="flex items-baseline justify-center my-8">
-              <span className="mr-2 text-5xl font-extrabold">$29</span>
-              <span className="text-gray-500 dark:text-gray-400">/month</span>
+              <span className="mr-2 text-4xl font-extrabold">Rp 2.000.000</span>
+              <span className="text-purple-500 dark:text-gray-400">/month</span>
             </div>
 
             <ul role="list" className="mb-8 space-y-4 text-left">
               <li className="flex items-center space-x-3">
                 <svg
-                  className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                  className="flex-shrink-0 w-5 h-5 text-blue-500"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +61,7 @@ const card = () => {
               </li>
               <li className="flex items-center space-x-3">
                 <svg
-                  className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                  className="flex-shrink-0 w-5 h-5 text-blue-500"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -76,7 +76,7 @@ const card = () => {
               </li>
               <li className="flex items-center space-x-3">
                 <svg
-                  className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                  className="flex-shrink-0 w-5 h-5 text-blue-500"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -93,7 +93,7 @@ const card = () => {
               </li>
               <li className="flex items-center space-x-3">
                 <svg
-                  className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                  className="flex-shrink-0 w-5 h-5 text-blue-500"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -105,13 +105,13 @@ const card = () => {
                   ></path>
                 </svg>
                 <span>
-                  Premium support:{' '}
+                  Premium support:
                   <span className="font-semibold">6 months</span>
                 </span>
               </li>
               <li className="flex items-center space-x-3">
                 <svg
-                  className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                  className="flex-shrink-0 w-5 h-5 text-blue-500"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -135,20 +135,20 @@ const card = () => {
             </Link>
           </div>
 
-          <div className="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+          <div className="flex flex-col max-w-lg p-6 mx-auto text-center text-purple-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
             <h3 className="mb-4 text-2xl font-semibold">Company</h3>
-            <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+            <p className="font-light text-purple-500 sm:text-lg">
               Relevant for multiple users, extended & premium support.
             </p>
             <div className="flex items-baseline justify-center my-8">
-              <span className="mr-2 text-5xl font-extrabold">$99</span>
-              <span className="text-gray-500 dark:text-gray-40">/month</span>
+              <span className="mr-2 text-4xl font-extrabold">Rp 3.000.000</span>
+              <span className="text-purple-500 dark:text-gray-40">/month</span>
             </div>
 
             <ul role="list" className="mb-8 space-y-4 text-left">
               <li className="flex items-center space-x-3">
                 <svg
-                  className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                  className="flex-shrink-0 w-5 h-5 text-blue-500"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -163,7 +163,7 @@ const card = () => {
               </li>
               <li className="flex items-center space-x-3">
                 <svg
-                  className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                  className="flex-shrink-0 w-5 h-5 text-blue-500"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -178,7 +178,7 @@ const card = () => {
               </li>
               <li className="flex items-center space-x-3">
                 <svg
-                  className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                  className="flex-shrink-0 w-5 h-5 text-blue-500"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -190,13 +190,13 @@ const card = () => {
                   ></path>
                 </svg>
                 <span>
-                  Team size:{' '}
+                  Team size:
                   <span className="font-semibold">10 developers</span>
                 </span>
               </li>
               <li className="flex items-center space-x-3">
                 <svg
-                  className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                  className="flex-shrink-0 w-5 h-5 text-blue-500"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -208,13 +208,13 @@ const card = () => {
                   ></path>
                 </svg>
                 <span>
-                  Premium support:{' '}
+                  Premium support:
                   <span className="font-semibold">24 months</span>
                 </span>
               </li>
               <li className="flex items-center space-x-3">
                 <svg
-                  className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                  className="flex-shrink-0 w-5 h-5 text-blue-500"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -238,20 +238,20 @@ const card = () => {
             </Link>
           </div>
 
-          <div className="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+          <div className="flex flex-col max-w-lg p-6 mx-auto text-center text-purple-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
             <h3 className="mb-4 text-2xl font-semibold">Enterprise</h3>
-            <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+            <p className="font-light text-purple-500 sm:text-lg">
               Best for large scale uses and extended redistribution rights.
             </p>
             <div className="flex items-baseline justify-center my-8">
-              <span className="mr-2 text-5xl font-extrabold">$499</span>
-              <span className="text-gray-500 dark:text-gray-400">/month</span>
+              <span className="mr-2 text-4xl font-extrabold">Rp 5.000.000</span>
+              <span className="text-purple-500">/month</span>
             </div>
 
             <ul role="list" className="mb-8 space-y-4 text-left">
               <li className="flex items-center space-x-3">
                 <svg
-                  className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                  className="flex-shrink-0 w-5 h-5 text-blue-500"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -266,7 +266,7 @@ const card = () => {
               </li>
               <li className="flex items-center space-x-3">
                 <svg
-                  className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                  className="flex-shrink-0 w-5 h-5 text-blue-500"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -281,7 +281,7 @@ const card = () => {
               </li>
               <li className="flex items-center space-x-3">
                 <svg
-                  className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                  className="flex-shrink-0 w-5 h-5 text-blue-500"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -299,7 +299,7 @@ const card = () => {
               </li>
               <li className="flex items-center space-x-3">
                 <svg
-                  className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                  className="flex-shrink-0 w-5 h-5 text-blue-500"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -311,13 +311,13 @@ const card = () => {
                   ></path>
                 </svg>
                 <span>
-                  Premium support:{' '}
+                  Premium support:
                   <span className="font-semibold">36 months</span>
                 </span>
               </li>
               <li className="flex items-center space-x-3">
                 <svg
-                  className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                  className="flex-shrink-0 w-5 h-5 text-blue-500"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"

@@ -6,7 +6,7 @@ const firstdescription = () => {
     <section id="MARKET" className="bg-gray-50 dark:bg-gray-800">
       <div className="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
         <div className="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
-          <div className="text-gray-500 sm:text-lg dark:text-gray-400">
+          <div className="text-purple-500 sm:text-lg">
             <h2
               data-aos="fade-up"
               data-aos-offset="200"
@@ -14,7 +14,7 @@ const firstdescription = () => {
               data-aos-duration="800"
               data-aos-easing="ease-in-out"
               data-aos-once="false"
-              className="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white"
+              className="mb-4 text-3xl font-extrabold tracking-tight text-purple-900"
             >
               Work with tools you already use
             </h2>
@@ -41,7 +41,7 @@ const firstdescription = () => {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-                <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">
+                <span className="text-base font-medium leading-tight text-purple-900">
                   Continuous integration and deployment
                 </span>
               </li>
@@ -58,7 +58,7 @@ const firstdescription = () => {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-                <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">
+                <span className="text-base font-medium leading-tight text-purple-900">
                   Development workflow
                 </span>
               </li>
@@ -75,7 +75,7 @@ const firstdescription = () => {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-                <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">
+                <span className="text-base font-medium leading-tight text-purple-900">
                   Knowledge management
                 </span>
               </li>
@@ -100,7 +100,7 @@ const firstdescription = () => {
             src="feature-2.png"
             alt="feature image 2"
           />
-          <div className="text-gray-500 sm:text-lg dark:text-gray-400">
+          <div className="text-purple-500 sm:text-lg">
             <h2
               data-aos="fade-up"
               data-aos-offset="200"
@@ -108,7 +108,7 @@ const firstdescription = () => {
               data-aos-duration="800"
               data-aos-easing="ease-in-out"
               data-aos-once="false"
-              className="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white"
+              className="mb-4 text-3xl font-extrabold tracking-tight text-purple-900"
             >
               We invest in the world’s potential
             </h2>
@@ -135,7 +135,7 @@ const firstdescription = () => {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-                <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">
+                <span className="text-base font-medium leading-tight text-purple-900">
                   Dynamic reports and dashboards
                 </span>
               </li>
@@ -152,7 +152,7 @@ const firstdescription = () => {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-                <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">
+                <span className="text-base font-medium leading-tight text-purple-900">
                   Templates for everyone
                 </span>
               </li>
@@ -169,7 +169,7 @@ const firstdescription = () => {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-                <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">
+                <span className="text-base font-medium leading-tight text-purple-900">
                   Development workflow
                 </span>
               </li>
@@ -186,7 +186,7 @@ const firstdescription = () => {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-                <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">
+                <span className="text-base font-medium leading-tight text-purple-900">
                   Limitless business automation
                 </span>
               </li>
@@ -203,7 +203,7 @@ const firstdescription = () => {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-                <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">
+                <span className="text-base font-medium leading-tight text-purple-900">
                   Knowledge management
                 </span>
               </li>
