@@ -6,3 +6,10 @@
   scroll-behavior: smooth;
 }
 
+/* Set background color for light mode */
+
+
+/* Set background color for dark mode */
+.dark-mode body {
+  background-color: #1f2937;
+}

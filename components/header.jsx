@@ -1,10 +1,9 @@
 import { auth } from "../firebase";
+import DarkModeToggle from "@/components/DarkModeToggle";
 import { signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 import { async } from "@firebase/util";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { useEffect } from "react";
-// import ReactSwitch from "react-switch";
-// import emailjs from "@emailjs/browser";
 
 /* eslint-disable @next/next/no-img-element */
 const header = () => {
@@ -61,6 +60,9 @@ const header = () => {
             </span>
           </a>
           <div className="flex items-center lg:order-2 gap-4">
+            <div>
+            <DarkModeToggle />
+            </div>
             <div>
               {user ? (
                 <p className="text-purple-700">{user.displayName}</p>
