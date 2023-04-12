@@ -1,5 +1,51 @@
+import { auth } from "../firebase";
+import { signInWithPopup, GoogleAuthProvider } from "firebase/auth";
+import { async } from "@firebase/util";
+import { useAuthState } from "react-firebase-hooks/auth";
+import { useEffect } from "react";
+// import ReactSwitch from "react-switch";
+// import emailjs from "@emailjs/browser";
+
 /* eslint-disable @next/next/no-img-element */
 const header = () => {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
+  const [user] = useAuthState(auth);
+
+  const googleAuth = new GoogleAuthProvider();
+  const login = async () => {
+    try {
+      const result = await signInWithPopup(auth, googleAuth);
+      // handle successful sign-in
+    } catch (error) {
+      if (error.code === "auth/cancelled-popup-request") {
+        // handle canceled sign-in
+        console.log("Sign-in was canceled by the user");
+      } else {
+        // handle other errors
+        console.log(error);
+      }
+    }
+  };
+  const logout = async () => {
+    try {
+      // Firebase authentication sign-out
+      await auth.signOut();
+      // Google authentication sign-out
+      const googleAuth = new GoogleAuthProvider();
+      if (googleAuth.currentUser) {
+        await googleAuth.signOut();
+      }
+
+      // Successfully signed out from both Firebase and Google
+    } catch (error) {
+      console.log(error);
+    }
+  };
+  // eslint-disable-next-line react-hooks/rules-of-hooks
+  useEffect(() => {
+    console.log(user);
+  }, [user]);
+
   return (
     <header className="fixed w-full">
       <nav className="bg-white border-gray-200 py-2.5 dark:bg-gray-900">
@@ -15,15 +61,26 @@ const header = () => {
             </span>
           </a>
           <div className="flex items-center lg:order-2 gap-4">
-            <a
-              href="#"
-              className="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800"
-            >
-              Log in
-            </a>
-            <a className="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800">
-              Logout
-            </a>
+            <div>
+              {user ? (
+                <p className="text-purple-700">{user.displayName}</p>
+              ) : (
+                <button
+                  className="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800"
+                  onClick={login}
+                >
+                  Log in
+                </button>
+              )}
+            </div>
+            <div>
+              <button
+                className="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800"
+                onClick={logout}
+              >
+                Log Out
+              </button>
+            </div>
             <button
               data-collapse-toggle="mobile-menu-2"
               type="button"
