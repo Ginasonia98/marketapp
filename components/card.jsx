@@ -33,7 +33,7 @@ const card = () => {
           data-aos="fade-up"
           className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0"
         >
-          <div className="flex flex-col max-w-lg p-6 mx-auto text-center text-purple-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+          <div className="flex flex-col max-w-lg p-6 mx-auto text-center text-purple-900 bg-white border-2 border-gray-300  rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
             <h3 className="mb-4 text-2xl font-semibold">Starter</h3>
             <p className="font-light text-purple-500 sm:text-lg">
               Best option for personal use & for your next project.
@@ -129,13 +129,13 @@ const card = () => {
             </ul>
             <Link
               href="#"
-              className="text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-purple-900"
+              className="text-white border-2 border-gray-300  bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-purple-900"
             >
               Get started
             </Link>
           </div>
 
-          <div className="flex flex-col max-w-lg p-6 mx-auto text-center text-purple-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+          <div className="flex flex-col max-w-lg p-6 mx-auto text-center text-purple-900 bg-white border-2 border-gray-300  rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
             <h3 className="mb-4 text-2xl font-semibold">Company</h3>
             <p className="font-light text-purple-500 sm:text-lg">
               Relevant for multiple users, extended & premium support.
@@ -232,13 +232,13 @@ const card = () => {
             </ul>
             <Link
               href="#"
-              className="text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-purple-900"
+              className="text-white border-2 border-gray-300  bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-purple-900"
             >
               Get started
             </Link>
           </div>
 
-          <div className="flex flex-col max-w-lg p-6 mx-auto text-center text-purple-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+          <div className="flex flex-col max-w-lg p-6 mx-auto text-center text-purple-900 bg-white border-2 border-gray-300  rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
             <h3 className="mb-4 text-2xl font-semibold">Enterprise</h3>
             <p className="font-light text-purple-500 sm:text-lg">
               Best for large scale uses and extended redistribution rights.
@@ -293,7 +293,7 @@ const card = () => {
                   ></path>
                 </svg>
                 <span>
-                  Team size:{' '}
+                  Team size:
                   <span className="font-semibold">100+ developers</span>
                 </span>
               </li>
@@ -335,7 +335,7 @@ const card = () => {
             </ul>
             <Link
               href="#"
-              className="text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-purple-900"
+              className="text-white  border-2 border-gray-300  bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-purple-900"
             >
               Get started
             </Link>

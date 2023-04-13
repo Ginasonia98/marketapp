@@ -9,6 +9,7 @@ import Footer from "../components/footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { ContactUs } from "@/components/contact";
 
 export default function Home() {
   useEffect(() => {
@@ -23,6 +24,7 @@ export default function Home() {
       <Card />
       <FAQ />
       <FreeTrial />
+      <ContactUs/>
       <Footer />
     </>
   );

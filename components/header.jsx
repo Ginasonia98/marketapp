@@ -61,14 +61,16 @@ const header = () => {
           </a>
           <div className="flex items-center lg:order-2 gap-4">
             <div>
-            <DarkModeToggle />
+              <DarkModeToggle />
             </div>
             <div>
               {user ? (
-                <p className="text-purple-700">{user.displayName}</p>
+                <p className="text-white font-bold text-sm">
+                  {user.displayName}
+                </p>
               ) : (
                 <button
-                  className="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800"
+                  className="text-white font-bold bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300  rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800"
                   onClick={login}
                 >
                   Log in
@@ -77,7 +79,7 @@ const header = () => {
             </div>
             <div>
               <button
-                className="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800"
+                className="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-bold rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800"
                 onClick={logout}
               >
                 Log Out
